@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:52097",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\..\\quiz_web.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

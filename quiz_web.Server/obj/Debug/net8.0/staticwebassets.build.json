@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "7cQvg2is+5y8OxhFp0qxJzXtKBn+ugXbC53rGNxRAb4=",
+  "Source": "quiz_web.Server",
+  "BasePath": "_content/quiz_web.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\quiz_web.client.esproj",
+      "Version": 2,
+      "Source": "quiz_web.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
