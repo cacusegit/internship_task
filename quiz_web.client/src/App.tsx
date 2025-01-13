@@ -8,7 +8,6 @@ import './App.css';
 function App() {
     return (
         <>
-            <Navbar />
             <Routes>
                 <Route path="/" element={<Quiz />} />
                 <Route path='/highscore' element={<Highscores /> } />
