@@ -50,7 +50,7 @@ namespace quiz_web.Server.Data
                 new QuizAnswer { Id = 13, QuizQuestionId = 4, QuizAnswers = "Garrosh Hellscream", isCorrect = false },
                 new QuizAnswer { Id = 14, QuizQuestionId = 4, QuizAnswers = "Sylvannas Windrunner", isCorrect = false },
                 new QuizAnswer { Id = 15, QuizQuestionId = 4, QuizAnswers = "Vol'jin", isCorrect = false },
-                new QuizAnswer { Id = 16, QuizQuestionId = 4, QuizAnswers = "None of the above", isCorrect = false },
+                new QuizAnswer { Id = 16, QuizQuestionId = 4, QuizAnswers = "None of the above", isCorrect = true },
 
                 new QuizAnswer { Id = 17, QuizQuestionId = 5, QuizAnswers = "Stormwind", isCorrect = true },
 

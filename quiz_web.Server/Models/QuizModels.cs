@@ -5,6 +5,23 @@ using System.ComponentModel.DataAnnotations;
 
 namespace quiz_web.Server.Models
 {
+    public class QuizSubmission
+    {
+        public List<QuizAnswerSubmission> Answers { get; set; }
+    }
+    public class QuizAnswerSubmission
+    {
+        public int QuizQuestionId { get; set; }
+        public string SelectedAnswer { get; set; }
+        public List<string> SelectedAnswers { get; set; }
+
+    }
+    public class HighScoreRequest
+    {
+        public string Email { get; set; }
+        public float Score { get; set; }
+    }
+
     public class QuizQuestion
     {
         [Key]

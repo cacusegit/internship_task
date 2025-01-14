@@ -3,50 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\controllers\\highscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\controllers\\highscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\data\\quizdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\data\\quizdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\models\\quizmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\models\\quizmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/QuizAppDB/True/SqlTable/dbo.QuizAnswers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.client\\src\\pages\\quiz.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|solutionrelative:quiz_web.client\\src\\pages\\quiz.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/QuizAppDB/True/SqlTable/dbo.QuizQuestion.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|solutionrelative:quiz_web.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.client\\src\\pages\\highscores.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|solutionrelative:quiz_web.client\\src\\pages\\highscores.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|solutionrelative:quiz_web.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|solutionrelative:quiz_web.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -55,6 +13,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|solutionrelative:quiz_web.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C390C9C6-53A9-4831-A7ED-72F6EAE0DA51}|quiz_web.client\\quiz_web.client.esproj|solutionrelative:quiz_web.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\controllers\\highscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\controllers\\highscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\models\\quizmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\models\\quizmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|c:\\users\\cacti\\onedrive\\stalinis kompiuteris\\quiz\\quiz_web.server\\data\\quizdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5980C7A-1696-4752-AC0B-D272FB595E9C}|quiz_web.Server\\quiz_web.Server.csproj|solutionrelative:quiz_web.server\\data\\quizdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,161 +42,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Program.cs",
-              "RelativeDocumentMoniker": "quiz_web.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Program.cs",
-              "RelativeToolTip": "quiz_web.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T19:26:14.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HighScoreController.cs",
-              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Controllers\\HighScoreController.cs",
-              "RelativeDocumentMoniker": "quiz_web.Server\\Controllers\\HighScoreController.cs",
-              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Controllers\\HighScoreController.cs",
-              "RelativeToolTip": "quiz_web.Server\\Controllers\\HighScoreController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T18:57:56.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dbo.QuizAnswers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/QuizAppDB/True/SqlTable/dbo.QuizAnswers.sql",
-              "ToolTip": "dbo.QuizAnswers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-13T18:33:24.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "dbo.QuizQuestion [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/QuizAppDB/True/SqlTable/dbo.QuizQuestion.sql",
-              "ToolTip": "dbo.QuizQuestion [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-13T18:33:03.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuestionController.cs",
-              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Controllers\\QuestionController.cs",
-              "RelativeDocumentMoniker": "quiz_web.Server\\Controllers\\QuestionController.cs",
-              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Controllers\\QuestionController.cs",
-              "RelativeToolTip": "quiz_web.Server\\Controllers\\QuestionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:12:48.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "QuizDB.cs",
               "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Data\\QuizDB.cs",
               "RelativeDocumentMoniker": "quiz_web.Server\\Data\\QuizDB.cs",
               "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Data\\QuizDB.cs",
               "RelativeToolTip": "quiz_web.Server\\Data\\QuizDB.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwCUAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wBIAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:05:41.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuizModels.cs",
-              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Models\\QuizModels.cs",
-              "RelativeDocumentMoniker": "quiz_web.Server\\Models\\QuizModels.cs",
-              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Models\\QuizModels.cs",
-              "RelativeToolTip": "quiz_web.Server\\Models\\QuizModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T15:17:57.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\index.css",
-              "RelativeDocumentMoniker": "quiz_web.client\\src\\index.css",
-              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\index.css",
-              "RelativeToolTip": "quiz_web.client\\src\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-13T12:29:02.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\App.css",
-              "RelativeDocumentMoniker": "quiz_web.client\\src\\App.css",
-              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\App.css",
-              "RelativeToolTip": "quiz_web.client\\src\\App.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-13T12:28:58.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Highscores.tsx",
-              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\pages\\Highscores.tsx",
-              "RelativeDocumentMoniker": "quiz_web.client\\src\\pages\\Highscores.tsx",
-              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\pages\\Highscores.tsx",
-              "RelativeToolTip": "quiz_web.client\\src\\pages\\Highscores.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-01-11T13:01:22.699Z",
+              "WhenOpened": "2025-01-14T20:37:31.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "QuizModels.cs",
+              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Models\\QuizModels.cs",
+              "RelativeDocumentMoniker": "quiz_web.Server\\Models\\QuizModels.cs",
+              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Models\\QuizModels.cs",
+              "RelativeToolTip": "quiz_web.Server\\Models\\QuizModels.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:16:56.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "quiz_web.Server\\Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "quiz_web.Server\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwEYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:00:57.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HighScoreController.cs",
+              "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Controllers\\HighScoreController.cs",
+              "RelativeDocumentMoniker": "quiz_web.Server\\Controllers\\HighScoreController.cs",
+              "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.Server\\Controllers\\HighScoreController.cs",
+              "RelativeToolTip": "quiz_web.Server\\Controllers\\HighScoreController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T15:00:42.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Quiz.tsx",
               "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\pages\\Quiz.tsx",
               "RelativeDocumentMoniker": "quiz_web.client\\src\\pages\\Quiz.tsx",
               "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\pages\\Quiz.tsx",
               "RelativeToolTip": "quiz_web.client\\src\\pages\\Quiz.tsx",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAowK8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-01-11T13:00:41.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "App.tsx",
               "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\App.tsx",
               "RelativeDocumentMoniker": "quiz_web.client\\src\\App.tsx",
               "ToolTip": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\App.tsx",
               "RelativeToolTip": "quiz_web.client\\src\\App.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-01-11T12:56:37.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\index.html",
               "RelativeDocumentMoniker": "quiz_web.client\\index.html",
@@ -231,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "main.tsx",
               "DocumentMoniker": "C:\\Users\\cacti\\OneDrive\\Stalinis kompiuteris\\quiz\\quiz_web.client\\src\\main.tsx",
               "RelativeDocumentMoniker": "quiz_web.client\\src\\main.tsx",

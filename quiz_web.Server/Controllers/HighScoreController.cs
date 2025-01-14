@@ -7,7 +7,7 @@ using quiz_web.Server.Models;
 namespace quiz_web.Server.Controllers
 {
     [ApiController]
-    [Route("api/controller")]
+    [Route("api/[controller]")]
     public class HighScoreController : ControllerBase
     {
         private readonly QuizDBContext _dBContext;
@@ -21,19 +21,24 @@ namespace quiz_web.Server.Controllers
         public async Task<IActionResult> GetHighScores()
         {
             var scores = await _dBContext.HighScores.OrderByDescending(x => x.Score)
-                .ThenByDescending(x => x.AchievedAt).ToListAsync();
+                .ThenByDescending(x => x.AchievedAt).Take(10).ToListAsync();
             return Ok(scores);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> AddHighScore([FromBody] HighScore highscore)
-        {
-            highscore.AchievedAt = DateTime.UtcNow;
+        [HttpPost("submit")]
+        public async Task<IActionResult> SubmitHighScore([FromBody] HighScoreRequest highScoreRequest)
+        { 
+            var highScore = new HighScore
+            {
+                Email = highScoreRequest.Email, 
+                Score = highScoreRequest.Score, 
+                AchievedAt = DateTime.UtcNow 
+            };
 
-            _dBContext.HighScores.Add(highscore);
+            _dBContext.HighScores.Add(highScore);
             await _dBContext.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetHighScores), new { id = highscore.Id }, highscore);
+            return Ok(new { Message = "High score saved successfully." });
         }
     }
 }
