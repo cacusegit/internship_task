@@ -24,7 +24,7 @@ namespace quiz_web.Server.Controllers
             var questions = await _dbContext.QuizQuestion.Include(q => q.Answers).ToListAsync();
             return Ok(questions);
         }
-
+        
         [HttpPost("submit")]
         public async Task<IActionResult> SubmitQuiz([FromBody] QuizSubmission submission)
         {

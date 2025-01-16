@@ -76,11 +76,18 @@ const Quiz = () => {
     const [email, setEmail] = useState('')
     const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string | string[]>>({});
     const navigate = useNavigate();
+    const [frontScore, setScore] = useState('')
 
     const isEmailValid = email && email.includes('@') && email.includes('.');
 
     const handleNext = () => {
-        setActiveStep((prevActiveStep) => prevActiveStep + 1)
+        if (activeStep === steps.length - 1) {
+            handleSubmit()
+            setActiveStep((prevActiveStep) => prevActiveStep + 1)
+        }
+        else {
+            setActiveStep((prevActiveStep) => prevActiveStep + 1)
+        }  
     }
 
     const handleBack = () => {
@@ -131,6 +138,7 @@ const Quiz = () => {
             console.log(response.data)
 
             const newScore = await response.data.score;
+            setScore(newScore)
     
             await axios.post("https://localhost:7007/api/HighScore/submit", {
                 email: email, 
@@ -146,28 +154,30 @@ const Quiz = () => {
 
     return (
         <div>
+            <h1>A Quiz about World of Warcraft</h1>
+            
             {/*Initial button */}
             {!showEmailField && !showStepper && (
-                <Button variant='contained' onClick={() => setEmailField(true)} color='primary'>Start The Quiz!</Button>
+                <Button variant='contained' onClick={() => setEmailField(true)} color='primary' sx={{ mt: 2, width: 340, fontSize: 30 }}>Start The Quiz!</Button>
             )}
 
             {/*Email Field */}
             {showEmailField && !showStepper && (
-                <>
-                    <h2>Please enter your email</h2>
+                <Box sx={{ maxWidth: 800 }}>
+                    <h2>Please enter your email below</h2>
                     <TextField id='outlined-basic' label='Required' variant='outlined' value={email}
-                        onChange={(e) => setEmail(e.target.value)}></TextField>
+                        onChange={(e) => setEmail(e.target.value)} sx={{ width: 340 }}></TextField>
 
                     <div>
-                        <Button variant='contained' onClick={() => { setShowStepper(true); }} color='primary' disabled={!isEmailValid}>
+                        <Button variant='contained' onClick={() => { setShowStepper(true); }} color='primary' disabled={!isEmailValid} sx={{ mt: 2, width: 340, fontSize:30 }}>
                             Begin the Quiz</Button>
                     </div>
-                </>
+                </Box>
             )}
 
             {/*Stepper Component */}
             {showStepper && (
-                <Box sx={{ maxWidth: 600 }}>
+                <Box sx={{ maxWidth: 800 }}>
 
                     <Stepper activeStep={activeStep} orientation='vertical'>
                         {steps.map((step, index) => (
@@ -244,8 +254,11 @@ const Quiz = () => {
                     </Stepper>
                     {activeStep === steps.length && (
                         <Paper square elevation={0} sx={{ p: 3 }}>
-                            <Typography>All steps completed - you&apos;re finished</Typography>
-                            <Button onClick={() => { handleSubmit(); handleReset(); toHighscore(); }} sx={{ mt: 1, mr: 1 }}>To HighScores</Button>
+                            <Typography>
+                                <p>All steps completed - you&apos;re finished</p>
+                                <p>You're score is: <b>{frontScore}</b></p>
+                            </Typography>
+                            <Button onClick={() => { handleReset(); toHighscore(); }} sx={{ mt: 1, mr: 1 }}>To HighScores</Button>
                         </Paper>
                     )}
                 </Box>

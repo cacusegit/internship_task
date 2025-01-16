@@ -21,7 +21,7 @@ namespace quiz_web.Server.Controllers
         public async Task<IActionResult> GetHighScores()
         {
             var scores = await _dBContext.HighScores.OrderByDescending(x => x.Score)
-                .ThenByDescending(x => x.AchievedAt).Take(10).ToListAsync();
+                .ThenBy(x => x.AchievedAt).Take(10).ToListAsync();
             return Ok(scores);
         }
 
