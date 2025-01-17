@@ -116,7 +116,7 @@ const Quiz = () => {
                 if (question.questionType === "radio-button" || question.questionType === "text") {
                     return {
                         quizQuestionId: question.id,
-                        selectedAnswer: selectedAnswer,
+                        selectedAnswer: selectedAnswer ? selectedAnswer : "",
                         selectedAnswers: []
                     };
                 }
@@ -201,7 +201,8 @@ const Quiz = () => {
                                                 {step.answers.map((answer, idx) => (
                                                     <FormControlLabel key={idx} control={<Radio
                                                         checked={selectedAnswers[index] === answer}
-                                                        onChange={() => handleAnswerChange(index, answer)} />} label={answer}></FormControlLabel>
+                                                        onChange={() => handleAnswerChange(index, answer)}
+                                                    />} label={answer}></FormControlLabel>
                                                 ))}
                                             </div>
                                         )}
@@ -229,6 +230,7 @@ const Quiz = () => {
                                                             else {
                                                                 newAnswers.push(answer);
                                                             }
+                                                            
                                                             handleAnswerChange(index, newAnswers);
                                                         }}
                                                         />

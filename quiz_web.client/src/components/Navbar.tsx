@@ -1,11 +1,15 @@
-import { useNavigate } from "react-router-dom"
+import { useNavigate, useLocation } from "react-router-dom"
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import * as React from 'react';
+import { useEffect } from 'react';
 
 function Navbar() {
 
     const navigate = useNavigate();
+
+    const location = useLocation();
+
 
     function samePageLinkNavigation(
         event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
@@ -27,6 +31,7 @@ function Navbar() {
         label?: string;
         href: string;
         selected?: boolean;
+        value: string;
     }
 
     function LinkTab(props: LinkTabProps) {
@@ -43,9 +48,9 @@ function Navbar() {
         );
     }
 
-    const [value, setValue] = React.useState(0);
+    const [value, setValue] = React.useState("/");
 
-    const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    const handleChange = (event: React.SyntheticEvent, newValue: string) => {
         if (
             event.type !== 'click' ||
             (event.type === 'click' &&
@@ -57,18 +62,24 @@ function Navbar() {
         }
     };
 
+    useEffect(() => {
+        if (location.pathname !== value) {
+            setValue(location.pathname)
+        }  
+    },[location, value])
+
     return (
         <>
             <Tabs
-                value={value}
+                value={value} 
                 onChange={handleChange}
                 aria-label="nav tabs example"
                 role="navigation"
                 centered
                 sx={{ position: 'fixed', top: 0, left: '50%', transform: 'translate(-50%)', margin: '0 auto' }}
                 >
-                    <LinkTab label="Quiz" href='/'/>
-                    <LinkTab label="Highscores" href='highscore'/> 
+                    <LinkTab label="Quiz" href="/" value="/" />
+                    <LinkTab label="Highscores" href="/highscore" value="/highscore" /> 
                 </Tabs>
         </>
     )
